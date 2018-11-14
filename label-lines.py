@@ -5,6 +5,10 @@ a = []
 s = raw_input()
 
 while s != "end":
-    n = int(s)
+    a.append(s)
     s = raw_input()
-print int [i]
+
+i = 0
+while i < len(a):
+    print i, len(a), a[i]
+    i = i + 1

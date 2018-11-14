@@ -2,9 +2,9 @@
 
 mark = input()
 first = mark >= 70
-second = mark >= 50 and < 70
-third = mark >= 40 and < 50
-fail = mark < 40
+second = mark >= 50 and < 69
+third = mark >= 40 and < 49
+fail = mark < 39
 
 print"first:"
 print"second:"
