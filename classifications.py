@@ -1,12 +1,6 @@
 #!/usr/bin/env python
-
 mark = input()
-first = mark >= 70
-second = mark >= 50 and < 69
-third = mark >= 40 and < 49
-fail = mark < 39
-
-print"first:"
-print"second:"
-print"third:"
-print"fail:"
+print 70 <= mark
+print 50 <= mark < 70
+print 40 <= mark < 50
+print mark < 40
